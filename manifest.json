@@ -1,24 +1,36 @@
 {
   "name": "YouTube",
   "short_name": "YouTube",
-  "description": "YouTube",
-  "start_url": ".",
+  "start_url": "/youtube-guardian/index.html",
+  "scope": "/youtube-guardian/",
   "display": "standalone",
   "background_color": "#ff0000",
   "theme_color": "#ff0000",
-  "orientation": "portrait",
+  "orientation": "portrait-primary",
   "icons": [
     {
       "src": "icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
     },
     {
       "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
